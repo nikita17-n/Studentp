@@ -1,0 +1,11 @@
+.stat-card {
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background: white;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}

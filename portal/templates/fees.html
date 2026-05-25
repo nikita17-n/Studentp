@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Fees{% endblock %}
+{% block page_title %}Fee Details{% endblock %}
+
+{% block content %}
+
+<div class="card p-4">
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Semester</th>
+                <th>Amount</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Semester 6</td>
+                <td>$1200</td>
+                <td><span class="badge bg-success">Paid</span></td>
+            </tr>
+
+            <tr>
+                <td>Semester 7</td>
+                <td>$1300</td>
+                <td><span class="badge bg-danger">Pending</span></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</div>
+
+{% endblock %}

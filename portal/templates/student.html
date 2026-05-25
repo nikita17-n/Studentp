@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Dashboard{% endblock %}
+{% block page_title %}Student Dashboard{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+
+    <div class="col-md-3 mb-4">
+        <div class="stat-card">
+            <h5>Attendance</h5>
+            <h2>92%</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="stat-card">
+            <h5>CGPA</h5>
+            <h2>8.9</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="stat-card">
+            <h5>Assignments</h5>
+            <h2>5</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+{% endblock %}

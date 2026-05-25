@@ -1,0 +1,1 @@
+console.log('Student Portal Loaded');

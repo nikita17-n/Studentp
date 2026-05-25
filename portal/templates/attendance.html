@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Attendance{% endblock %}
+{% block page_title %}Attendance Report{% endblock %}
+
+{% block content %}
+
+<div class="card p-4">
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Attended</th>
+                <th>Total Classes</th>
+                <th>Percentage</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>DBMS</td>
+                <td>28</td>
+                <td>30</td>
+                <td>93%</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>25</td>
+                <td>30</td>
+                <td>83%</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock %}
