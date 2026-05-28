@@ -42,7 +42,7 @@ print("Accuracy Score Logistic Regression: ",accuracy_score(y_test,n))
 # q = p.predict(X_test)
 # print("Accuracy Score : ",accuracy_score(y_test,q))
 
-k = KNeighborsClassifier(n_neighbors=7)
+k = KNeighborsClassifier(n_neighbors=5)
 
 r = k.fit(X_train,y_train)
 s = r.predict(X_test)
