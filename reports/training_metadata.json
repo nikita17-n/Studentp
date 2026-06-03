@@ -1,0 +1,25 @@
+{
+    "best_model": "Random Forest",
+    "feature_columns": [
+        "weekly_self_study_hours",
+        "attendance_percentage",
+        "class_participation",
+        "total_score"
+    ],
+    "target_classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+    ],
+    "train_rows": 800000,
+    "test_rows": 200000,
+    "include_total_score": true,
+    "saved_files": {
+        "best_model": "models\\best_student_grade_model.joblib",
+        "model_comparison": "reports\\model_comparison.csv",
+        "classification_report": "reports\\best_classification_report.txt",
+        "confusion_matrix": "reports\\best_confusion_matrix.csv"
+    }
+}

@@ -1,0 +1,6 @@
+,predicted_A,predicted_B,predicted_C,predicted_D,predicted_F
+actual_A,109646,83,0,0,0
+actual_B,98,51484,53,0,0
+actual_C,0,70,28303,23,0
+actual_D,0,0,31,8960,8
+actual_F,0,0,0,5,1236
